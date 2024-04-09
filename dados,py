@@ -8,4 +8,10 @@ def carteira():
 
 def cadastro_novo_mil(*,nome, nip, idade, om, dependente, patente):
     input(f'Nome de Guerra do MIL{nome}')
-    input(f'')
+    input(f'Qual e o nipe do MIL')
+    input(f'Idade')
+    input(f'OM')
+    input(f'O MIL tem dependente?')
+    input(f'Qual e sua patente')
+
+print(cadastro_novo_mil)
