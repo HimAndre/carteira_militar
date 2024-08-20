@@ -7,7 +7,6 @@ Funcionalidades
 Cadastramento Rápido: O sistema permite cadastrar militares de forma rápida e precisa, minimizando o tempo necessário para inserir dados.
 
 Gerador de NIP: 
-
 O projeto inclui um gerador automático de NIP (Número de Identificação Pessoal), baseado no ano de entrada do militar na força armada. Por exemplo, um militar que ingressou em 2018 terá um NIP começando com "18xxxxxx".
 
 Interface Gráfica: 
