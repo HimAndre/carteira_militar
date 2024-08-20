@@ -1,6 +1,5 @@
 **Projeto de Cadastramento de Militar**
 
-Descrição
 Este projeto foi criado com o objetivo de simplificar e automatizar o processo de cadastramento de militares, substituindo o método manual tradicional que, além de ser demorado, é suscetível a erros. Como ex-militar com 5 anos de serviço, conheço bem os desafios envolvidos nesse processo e desenvolvi uma solução para tornar o cadastramento mais eficiente.
 
 Funcionalidades
