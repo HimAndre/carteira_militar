@@ -3,7 +3,6 @@
 Este projeto foi criado com o objetivo de simplificar e automatizar o processo de cadastramento de militares, substituindo o método manual tradicional que, além de ser demorado, é suscetível a erros. Como ex-militar com 5 anos de serviço, conheço bem os desafios envolvidos nesse processo e desenvolvi uma solução para tornar o cadastramento mais eficiente.
 
 Funcionalidades
-
 Cadastramento Rápido: O sistema permite cadastrar militares de forma rápida e precisa, minimizando o tempo necessário para inserir dados.
 
 Gerador de NIP: 
@@ -11,6 +10,10 @@ O projeto inclui um gerador automático de NIP (Número de Identificação Pesso
 
 Interface Gráfica: 
 Em desenvolvimento, uma interface gráfica será criada para facilitar o uso do programa, tornando-o mais acessível a usuários com diferentes níveis de familiaridade com tecnologia.
+
+Acredito que em Python o Flet se adpta melhor por sua versatilidade. 
+(Usei Tktinker porém sinto que é arcaico demais).
+
 
 **Planejamento Futuro**
 Integração com Bancos de Dados:
