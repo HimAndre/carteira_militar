@@ -17,16 +17,20 @@ Acredito que em Python o Flet se adpta melhor por sua versatilidade.
 
 
 **Planejamento Futuro**
+
 Integração com Bancos de Dados:
 Planejo integrar o projeto com um banco de dados para armazenar e recuperar informações de forma mais eficaz.
 
 Validação de Dados:
+
 Implementar validações para garantir que as informações inseridas sejam precisas e consistentes.
 
 Expansão de Funcionalidades:
 Adicionar mais funcionalidades baseadas nas necessidades do dia a dia dos militares.
 
 Como Contribuir
+
+
 Se você é um desenvolvedor interessado em contribuir com este projeto, sinta-se à vontade para fazer um fork e enviar pull requests. Toda ajuda é bem-vinda!
 
 Licença
