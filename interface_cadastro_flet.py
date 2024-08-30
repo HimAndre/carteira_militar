@@ -1,5 +1,6 @@
 import flet as ft
 import random
+import sqlite3
 
 def main(pagina: ft.Page):
     pagina.title = "Cadastro Pessoal"
@@ -24,12 +25,23 @@ def main(pagina: ft.Page):
         return (x1 + x2 + x3 + x4 + x5 + x6 + x7 + x8)
 #tive que usar o RETURN para puxar o numero randomico 
 
+        
     def salvar_dados(e):
         nip.value = gerar_nip()
         dados = f"Nome {nome.value}, idade {idade.value}, om {om.value}, patente {patente.value}, NIP: {nip.value}"
         #usei o value para poder capturar os valores 
         print(dados)
         
+        # atraves desse conjunto de codigos abaixo consigo pegar os inputs do usuario e colocar em um BD
+        banco = sqlite3.connect("banco_militares")
+        cursor = banco.cursor()
+        
+        cursor.execute("CREATE TABLE IF NOT EXISTS militares (nome TEXT,idade INTERGER,om TEXT, patente TEXT,nip INTEGER)")
+        cursor.execute("INSERT INTO militares (nome,idade,om,patente,nip) VALUES (?,?,?,?,?)",(nome.value, str(idade.value), om.value, patente.value,str(nip.value)))
+        
+        banco.commit()
+                      
+                      
         retorno_salvar = ft.AlertDialog(      #ft.AlertDialog cria janelas pop=up
             title=ft.Text("Dados Salvos com sucesso"),
             content=ft.Text(dados),
