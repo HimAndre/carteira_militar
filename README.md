@@ -1,33 +1,30 @@
-**Projeto de Cadastramento de Militar**
-e possivel implementação de uma carteira gerada com os dados fornecidos
+# Projeto de Cadastramento de Militar
 
-Este projeto foi criado com o objetivo de simplificar e automatizar o processo de cadastramento de militares, substituindo o método manual tradicional que, além de ser demorado, é suscetível a erros. Como ex-militar com 5 anos de serviço, conheço bem os desafios envolvidos nesse processo e desenvolvi uma solução para tornar o cadastramento mais eficiente.
+Este projeto visa simplificar e automatizar o processo de cadastramento de militares, substituindo o método manual tradicional. Criado com base em minha experiência de 5 anos como militar, o sistema foi desenvolvido para ser rápido, eficiente e minimizar erros comuns no processo manual.
 
-Funcionalidades
-Cadastramento Rápido: O sistema permite cadastrar militares de forma rápida e precisa, minimizando o tempo necessário para inserir dados.
+## Funcionalidades
 
-Gerador de NIP: 
-O projeto inclui um gerador automático de NIP (Número de Identificação Pessoal), baseado no ano de entrada do militar na força armada. Por exemplo, um militar que ingressou em 2018 terá um NIP começando com "18xxxxxx".
+- **Cadastramento Rápido**: O sistema permite cadastrar militares de forma ágil.
+- **Gerador de NIP Automático**: Gera automaticamente o Número de Identificação Pessoal (NIP) baseado no ano de ingresso do militar na força armada(em desenvolvimento). Exemplo: um militar que ingressou em 2018 terá um NIP começando com "18xxxxxx".
+- **Interface Gráfica**: Uma interface gráfica está sendo desenvolvida para facilitar o uso do programa, tornando-o acessível a todos os níveis de usuários.
+- **Geração de Carteira Militar**: Implementação futura para criar uma carteira militar baseada nos dados cadastrados.
 
-Interface Gráfica: 
-Em desenvolvimento, uma interface gráfica será criada para facilitar o uso do programa, tornando-o mais acessível a usuários com diferentes níveis de familiaridade com tecnologia.
+## Planejamento Futuro
 
-Acredito que em Python o Flet se adpta melhor por sua versatilidade. 
-(Usei Tktinker porém sinto que é arcaico demais).
+- **Integração com Bancos de Dados**: Armazenamento e recuperação eficientes das informações dos militares.
+- **Validação de Dados**: Implementação de validações para garantir a precisão e consistência dos dados inseridos.
+- **Expansão de Funcionalidades**: Adição de novas funcionalidades baseadas nas necessidades dos militares no dia a dia.
+
+## Tecnologias Utilizadas
+
+- **Linguagem**: Python
+- **Biblioteca de Interface Gráfica**: Flet (em substituição ao Tkinter, por sua maior versatilidade)
 
 
-**Planejamento Futuro**
-Integração com Bancos de Dados:
-Planejo integrar o projeto com um banco de dados para armazenar e recuperar informações de forma mais eficaz.
+## Como Contribuir
 
-Validação de Dados:
-Implementar validações para garantir que as informações inseridas sejam precisas e consistentes.
-
-Expansão de Funcionalidades:
-Adicionar mais funcionalidades baseadas nas necessidades do dia a dia dos militares.
-
-Como Contribuir
 Se você é um desenvolvedor interessado em contribuir com este projeto, sinta-se à vontade para fazer um fork e enviar pull requests. Toda ajuda é bem-vinda!
 
-Licença
-Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para mais detalhes.
+## Licença
+
+Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](./LICENSE) para mais detalhes.
