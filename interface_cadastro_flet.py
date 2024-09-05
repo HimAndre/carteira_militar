@@ -1,5 +1,5 @@
 import flet as ft
-import random
+from random import randint
 import sqlite3
 
 def main(pagina: ft.Page):
@@ -12,20 +12,23 @@ def main(pagina: ft.Page):
     om = ft.TextField(label="Om", width=300)
     patente = ft.TextField(label="Patente", width=300)
     nip= ft.TextField(label="Nip",width=300, read_only=True)
+
     
     def gerar_nip():
-        x1 = str(random.randint(0,9))
-        x2 = str(random.randint(0,9))
-        x3 = str(random.randint(0,9))
-        x4 = str(random.randint(0,9))
-        x5 = str(random.randint(0,9))
-        x6 = str(random.randint(0,9))
-        x7 = str(random.randint(0,9))
-        x8 = str(random.randint(0,9))
-        return (x1 + x2 + x3 + x4 + x5 + x6 + x7 + x8)
+        cpf = ''.join(str(randint(0,9)) for x in range(9))
+        return cpf        
+        
+        # x1 = str(random.randint(0,9))
+        # x2 = str(random.randint(0,9))
+        # x3 = str(random.randint(0,9))
+        # x4 = str(random.randint(0,9))
+        # x5 = str(random.randint(0,9))
+        # x6 = str(random.randint(0,9))
+        # x7 = str(random.randint(0,9))
+        # x8 = str(random.randint(0,9))
+        # return (x1 + x2 + x3 + x4 + x5 + x6 + x7 + x8)
 #tive que usar o RETURN para puxar o numero randomico 
 
-        
     def salvar_dados(e):
         nip.value = gerar_nip()
         dados = f"Nome {nome.value}, idade {idade.value}, om {om.value}, patente {patente.value}, NIP: {nip.value}"
@@ -43,7 +46,7 @@ def main(pagina: ft.Page):
                       
                       
         retorno_salvar = ft.AlertDialog(      #ft.AlertDialog cria janelas pop=up
-            title=ft.Text("Dados Salvos com sucesso"),
+            title=ft.Text("Dados salvos com sucesso"),
             content=ft.Text(dados),
         )
         # em tentativa e erro consegui exibir mensagem ao salvar os dados
