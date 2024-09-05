@@ -11,7 +11,7 @@ Este projeto visa simplificar e automatizar o processo de cadastramento de milit
 
 ## Planejamento Futuro
 
-- **Integração com Bancos de Dados**: Armazenamento e recuperação eficientes das informações dos militares.
+- ~~**Integração com Bancos de Dados**: Armazenamento e recuperação eficientes das informações dos militares.~~
 - **Validação de Dados**: Implementação de validações para garantir a precisão e consistência dos dados inseridos.
 - **Expansão de Funcionalidades**: Adição de novas funcionalidades baseadas nas necessidades dos militares no dia a dia.
 
