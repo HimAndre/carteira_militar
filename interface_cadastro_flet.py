@@ -18,17 +18,7 @@ def main(pagina: ft.Page):
         cpf = ''.join(str(randint(0,9)) for x in range(9))
         return cpf        
         
-        # x1 = str(random.randint(0,9))
-        # x2 = str(random.randint(0,9))
-        # x3 = str(random.randint(0,9))
-        # x4 = str(random.randint(0,9))
-        # x5 = str(random.randint(0,9))
-        # x6 = str(random.randint(0,9))
-        # x7 = str(random.randint(0,9))
-        # x8 = str(random.randint(0,9))
-        # return (x1 + x2 + x3 + x4 + x5 + x6 + x7 + x8)
-#tive que usar o RETURN para puxar o numero randomico 
-
+        
     def salvar_dados(e):
         nip.value = gerar_nip()
         dados = f"Nome {nome.value}, idade {idade.value}, om {om.value}, patente {patente.value}, NIP: {nip.value}"
@@ -64,5 +54,6 @@ def main(pagina: ft.Page):
         )
     )
 # de forma basica este é o caminho para receber as informaçoes     
+
 ft.app(target=main)
 
